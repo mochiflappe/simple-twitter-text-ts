@@ -1,0 +1,46 @@
+{
+  "name": "simple-twitter-text-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "text",
+      "html"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      },
+      "cjs": null
+    },
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(__tests__/.*|\\.(test|spec))\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "src/ts"
+    ]
+  },
+  "dependencies": {
+    "@types/jest": "^22.1.4",
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.0",
+    "typescript": "^2.7.2"
+  }
+}

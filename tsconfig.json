@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": "/",
+    "rootDir": "./ts",
+    "outDir": "../../js",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es5",
+      "es2015"
+    ],
+    "module": "es2015",
+    "types": [
+      "jquery",
+      "jest"
+    ],
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitThis": false,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
